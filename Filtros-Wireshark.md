@@ -54,6 +54,3 @@
    - Conteúdo em texto puro	                          frame contains localiza linhas em texto puro
      
   
-Somente pacotes de dados (TCP payload)	tcp.len > 0	Ignora pacotes de controle como ACK puro
-Follow TCP Stream	Right-click → Follow → TCP Stream	Não é filtro, mas permite ver o conteúdo completo da sessão
-     
