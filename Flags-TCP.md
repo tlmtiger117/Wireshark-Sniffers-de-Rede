@@ -24,14 +24,17 @@
       - Filrewall configurado para recusar a conexão(aviso)
       - aplicação abortando sessão(recusando processar os dados)
       - tráfego malformado (pacote TCP faltando conteúdo). O TCP não aceita pacotes faltando coisas
-
+      - 
+- PSH(Push)Função:Envio de dados imediato para alguma aplicação(programa), sem esperar o buffer(RAM) da tacela TCP
+                  da aplicação acumule mais dados(recebe e já manda rapidamente).
 
 - Flag Significado e Uso principal:
 
-   - SYN	   ->   Synchronize	               ->  Início da conexão
+   - SYN	   ->       Synchronize	                ->  Início da conexão
    - SYN+ACK ->	  Synchronize + Acknowledge	 ->  Aceitação da conexão
-   - FIN	   ->   Finish	                   ->  Encerramento normal
-   - RST	   ->   Reset	                     ->  Encerramento abrupto
+   - PSH    ->      Push                         -> Manda dados imediatamente(recebu, mandou).
+   - FIN	   ->      Finish	                      ->  Encerramento normal
+   - RST	   ->      Reset	                      ->  Encerramento abrupto
 
 
      
