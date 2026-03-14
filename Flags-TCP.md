@@ -32,7 +32,7 @@
 
    - SYN	   ->       Synchronize	                ->  Início da conexão
    - SYN+ACK ->	  Synchronize + Acknowledge	 ->  Aceitação da conexão
-   - PSH    ->      Push                         -> Manda dados imediatamente(recebu, mandou).
+   - PSH    ->      Push                         -> Manda dados imediatamente(recebeu, armazenou(RAM)mandou).
    - FIN	   ->      Finish	                      ->  Encerramento normal
    - RST	   ->      Reset	                      ->  Encerramento abrupto
 
