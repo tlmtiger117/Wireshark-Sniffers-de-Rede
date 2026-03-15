@@ -25,8 +25,8 @@
       - aplicação abortando sessão(recusando processar os dados)
       - tráfego malformado (pacote TCP faltando conteúdo). O TCP não aceita pacotes faltando coisas
       - 
-- PSH(Push)Função:Envio de dados imediato para alguma aplicação(programa), sem esperar o buffer(RAM) da tacela TCP
-                  da aplicação acumule mais dados(recebe e já manda rapidamente).
+- PSH(Push)Função:Envio de dados imediato para alguma aplicação(programa), sem esperar o buffer(RAM) da tabela TCP
+                  da aplicação acumular mais dados(recebe e já manda rapidamente).
 
 - Flag Significado e Uso principal:
 
